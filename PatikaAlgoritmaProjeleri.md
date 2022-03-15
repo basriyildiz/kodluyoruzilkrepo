@@ -14,6 +14,19 @@ Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 3.  Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
 
 # Merge Sort Projesi
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+1.  [16,21,11] | [8,12,22]
+2.  [16] | [21,11] || [8] | [12,22]
+3.  [16] | [11,21] || [8] | [12,22]
+4.  [11,16,21] | [8,12,22]
+5.  [8,11,12,16,21,22]
+
+Big-O gösterimini yazınız.
+- O(nLogn)
+
+
 
 
 
